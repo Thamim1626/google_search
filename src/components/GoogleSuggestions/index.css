@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 200px;
+  font-family: Roboto;
+}
+
+.google-logo {
+  width: 350px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.suggest-container {
+  box-shadow: 0px 4px 16px 0px grey;
+  border-radius: 10px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.input-container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  min-width: 450px;
+}
+
+.search-input {
+  height: 36px;
+  border: none;
+  outline: none;
+  min-width: 350px;
+}
+.search-input::placeholder {
+  font-size: 18px;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+}
+
+.suggest-list {
+  list-style: none;
+  margin-top: 0px;
+  min-width: 450px;
+  padding: 10px;
+}
+
+.suggest-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggest-name {
+  color: #475569;
+}
+
+.suggest-icon {
+  height: 30px;
+  width: 30px;
+}
