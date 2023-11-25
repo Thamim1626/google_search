@@ -24,7 +24,7 @@ class GoogleSuggestions extends Component {
   render() {
     const {suggestionsList, searchInput} = this.state
     const searchResults = suggestionsList.filter(eachUser =>
-      eachUser.name.includes(searchInput),
+      eachUser.suggestion.includes(searchInput),
     )
     return (
       <div className="container">
